@@ -1,0 +1,101 @@
+/* NAVBAR  */
+
+.login-link{
+    color:#fff;
+    display:flex;
+    margin-right:1rem;
+    text-decoration:none;
+    align-items:center;
+}
+.navbar-right-button{
+    padding:0.5rem 1.3rem;
+    color:#121212;
+    background:#FFC600;
+    border-radius:0.4rem;
+    border:none;
+}
+.navbar-right-button:hover{
+    background:#ffdd68;
+}
+.main-screen-wrapper{
+    background:#fff;
+    height:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-radius:0.9rem;
+}
+.main-screen-generate-text{
+    background:transparent;
+    margin-top:20px;
+    min-height:490px;
+    padding:18px 40px;
+    overflow-y:scroll;
+    color:#2d2138;
+    text-align:justify;
+}
+@media screen and (max-width:576px){
+.main-screen-generate-text{
+    min-height:172px;
+}
+}
+.main-screen-buttons{
+    display:flex;
+    margin-top:1rem;
+    background-color: #f0ebf9 !important;
+    border-color: #f0ebf9 !important;
+    padding:20px 0;
+    border-bottom-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+/* BUTTONS */
+.copy-to-clipboard{
+    padding:0.4rem 1.5rem;
+    border:1px solid #04aa6d;
+    color:#04aa6d;
+    border-radius:0.3rem;
+    background:#eeffee;
+}
+.copy-to-clipboard:hover{
+    background:#e2ebe2;
+}
+.start-listening{
+    padding:0.4rem 1.5rem;
+    border:1px solid #171718;
+    background:#171718;
+    color:#fff;
+    border-radius:0.3rem;
+}
+.start-listening:hover{
+    background:#454549;
+}
+.stop-listening{
+    padding:0.4rem 1.5rem;
+    border:1px solid #d84d4d;
+    background:#d84d4d;
+    color:#fff;
+    border-radius:0.3rem;
+}
+.stop-listening:hover{
+   background:#da6969;
+}
+.reset-to-origin{
+    padding:0.4rem 1.5rem;
+    border:1px solid #20104D;
+    border-radius:0.3rem;
+    color:#fff;
+    background:#20104D;
+}
+.reset-to-origin:hover{
+    background:#3e2b73;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:576px){
+    .main-screen-wrapper{
+        height:330px;
+    }
+    .main-screen-generate-text{
+        padding:12px 20px;
+    }
+}

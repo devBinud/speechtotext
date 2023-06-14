@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.layout-wrapper{
+    padding-top:6rem;
+    background-image:
+    linear-gradient(45deg,rgba(245,70,66, 0.45),rgba(8,83,156, 0.95)), url(
+    'https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830029.jpg?w=1380&t=st=1686657483~exp=1686658083~hmac=ab9d0ce2cf0fa4882ba336b2db9f208e6c694640e9073c7243b1fa5433eb7677');
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+@media screen and (max-width:576px){
+  .layout-wrapper{
+    padding-top:4rem;
+}
+}

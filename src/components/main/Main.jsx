@@ -53,7 +53,7 @@ const Main = () => {
                 <div className="row">
                   <div className="col-md-3 col-6 mt-2">
                     <button className="copy-to-clipboard" onClick={setCopied}><i class="fa-regular fa-clipboard me-2"></i>
-                    {isCopied? 'Copied' : 'Copy Now'}{transcript}</button>
+                    {isCopied? 'Copied' : 'Copy Now'}</button>
                   </div>
                   <div className="col-md-3 col-6 mt-2">
                     <button className="start-listening" onClick={startListening}><i class="fa-solid fa-microphone-lines me-2"></i> Start Listening</button>
